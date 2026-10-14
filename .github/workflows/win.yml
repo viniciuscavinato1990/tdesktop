@@ -2,7 +2,9 @@ name: Windows.
 
 on:
   push:
-    # Pushes to the canary branches run only canary.yml, see there.
+  on:
+  workflow_dispatch:
+  push:
     branches-ignore:
       - public-canary
       - private-canary

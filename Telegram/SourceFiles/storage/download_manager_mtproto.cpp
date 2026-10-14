@@ -1043,3 +1043,5 @@ void DownloadMtprotoTask::changeCDNParams(
 }
 
 } // namespace Storage
+
+// Experimental download throughput tuning: build this branch to test the session limits.
